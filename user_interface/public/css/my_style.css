@@ -1,0 +1,108 @@
+.btn-lower{
+		margin-top: 35px;
+    margin-bottom: 10px;
+	}
+  table, th, td {
+  border: 1px solid black;
+}
+#formPage button.accordion {
+    margin-bottom: 1rem;
+}
+div#formPage .panel-default>.panel-heading {
+    color: #337ab7;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+      .accordion {
+          background-color: #337ab7;
+          color: #fff;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+          transition: 0.4s;
+        }
+
+        .active, .accordion:hover {
+          background-color: #ccc;
+        }
+
+        .accordion:after {
+          content: '\002B';
+          color: #fff;
+          font-weight: bold;
+          float: right;
+          margin-left: 5px;
+        }
+
+        .active:after {
+          content: "\2212";
+        }
+
+        .Accpanel {
+          padding: 0px 18px;
+          background-color: white;
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.2s ease-out;
+        }
+        div#formPage form button#SubmitButton {
+    display: block;
+    margin: auto;
+}
+/*
+  Css For Barcode Scan
+  */
+  #interactive.viewport {position: relative; width: 100%; height: auto; overflow: hidden; text-align: center;}
+  #interactive.viewport > canvas, #interactive.viewport > video {max-width: 100%;width: 100%;}
+  canvas.drawing, canvas.drawingBuffer {position: absolute; left: 0; top: 0;}
+/**/
+div#formPage form {
+    padding: 1rem 0;
+}
+
+div#formPage form .panel.panel-default {
+    padding-bottom: 1rem;
+}
+#formPage .panel-body .control-group.after-add-more {
+    width: 80%;
+}
+#formPage .panel-body .barcode {
+    width: 20%;
+}
+#formPage .panel-wrapper .panel-body{
+  padding: 0;
+}
+div#formPage .control-group.generated.input-group {
+    padding: 5px 15px;
+    display: inline-flex;
+    width: auto;
+    align-items: center;
+    background-color: #17a2b8;
+    border-radius: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+#formPage .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#formPage .panel-wrapper {
+    padding: 10px;
+}
+div#formPage .control-group.generated.input-group .remove {
+    margin-left: 10px;
+}
+@media screen and (max-width: 480px){
+  #formPage .panel-body .control-group.after-add-more {
+    width: 60%;
+  }
+  #formPage .panel-body .barcode {
+      width: 40%;
+  }
+}

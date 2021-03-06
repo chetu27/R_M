@@ -1,0 +1,140 @@
+.login{
+	width: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 50px;
+    border-radius: 6px;
+    margin-top: 65px;
+}
+.login input[type=text],
+.login input[type=password],
+.login input[type=submit]{
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	height: 36px;
+}
+.login input[type=submit]{
+	background: #05cb86;
+	color: #fff;
+}
+.mb-10{
+	margin-bottom: 10px;
+}
+	.boxes {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: 79;
+    border: 1px solid;
+    padding: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+    input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.add-prduct-btn{
+	margin-top: 23px;
+	margin-bottom: 10px;
+}
+.background-green-heading{
+	background: #05cb86;
+	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.background-green-heading h2{
+	margin: 0;
+}
+#recipe_list_wrapper, #product_list_wrapper{
+	margin-top: 15px;
+}
+.content-section{
+	min-height: calc(100vh - 158px);
+}
+table.dataTable thead .sorting.remove-sorting-icon:after{
+	opacity: 0;
+}
+table.dataTable thead .sorting_asc.remove-sorting-icon:after{
+	opacity: 0;
+}
+table.dataTable thead .sorting_desc.remove-sorting-icon:after{
+	opacity: 0;
+}
+img#blah {
+    max-width: 150px;
+}
+ul.dropdown-menu.inner {
+    height: auto !important;
+    max-height: 200px !important;
+    overflow-x: hidden !important;
+}
+.footer {
+   background-color: #222;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   }
+
+nav.navbar {
+    border-radius: 0px!important;
+}
+#menu-header-menu{
+	margin-top:5px;
+}
+.footer { 
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 9999;
+}
+body{
+	padding-bottom:70px;
+}
+.d-flex{
+	display: flex;
+}
+.ml5 .btn{
+	margin-left:5px;
+}
+
+#product_list.dataTable thead .nosort.sorting_asc:after,
+#product_list.dataTable thead .nosort.sorting_desc:after{
+	content:''!important;
+}
+
+@media only screen and (max-width: 1024px)  {
+}
+@media only screen and (max-width: 768px)  {
+
+}
+@media only screen and (max-width: 767px)  {
+	.navbar-nav .open .dropdown-menu.donwBg
+	{
+		background: #000;
+		padding-left:10px;
+	}
+	.setCenter{
+		text-align: center!important;
+		margin-bottom:5px;
+	}
+}
+@media only screen and (max-width: 600px)  {
+	.login{
+		width: 90%;
+		padding: 30px;
+	}
+	.navbar-nav>li>a{
+		padding: 10px 25px;
+	}
+		
+}
